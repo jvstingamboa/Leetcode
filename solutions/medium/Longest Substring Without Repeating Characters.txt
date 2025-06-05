@@ -1,0 +1,21 @@
+// Title: Longest Substring Without Repeating Characters
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+        for i in s:
+        
+            if i in str_list:
+            
+                str_list = str_list[str_list.index(i)+1:]
+                
+            str_list.append(i)
+            
+            maxSub = max(maxSub,len(str_list))
+        
+        str_list = []
+        
+        maxSub = 0
+            
+        return maxSub
+        
