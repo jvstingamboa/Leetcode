@@ -1,0 +1,20 @@
+// Title: Removing Stars From a String
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/removing-stars-from-a-string/
+
+            else:
+                stack.pop()
+            if c == '*':
+        for c in s:
+        
+        res = ""
+
+        stack = []
+
+                stack.append(c)
+want to pop that character.
+        # we can load all the characters into a stack becuase when we encounter a * we 
+
+
+        res = "".join(stack)
